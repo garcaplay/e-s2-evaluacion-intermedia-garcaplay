@@ -17,6 +17,7 @@ function guessNumber(event){
     const givenNumber = Number(inputSelector.value);
     // mostramos el número en consola y
     console.log(givenNumber);
+    hintSelector.classList.remove('hidden');
     // comprobamos si su número coincide con el que hemos generado
     // si no: 
     if(givenNumber !== randomNumber){

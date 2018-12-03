@@ -1,0 +1,12 @@
+body {
+    background-color: grey;
+}
+
+.container__hint{
+    border: 2px solid blue;
+    color: blue;
+}
+
+.hidden{
+    display: none;
+}
