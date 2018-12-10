@@ -1,5 +1,39 @@
 body {
     background-color: grey;
+    height: 100vh;
+}
+.container{
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container__box-form{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.numberLabel{
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#numberInput{
+    width: 180px;
+}
+
+.form__btn{
+    margin-top: 20px;
+    width: 180px;
+    border-radius: 2px;
 }
 
 .container__hint{
@@ -7,6 +41,17 @@ body {
     color: blue;
 }
 
-.hidden{
-    display: none;
+.container__hint-success{
+    border: 2px solid green;
+    background-color: rgba(11, 215, 11, 0.338);
+    color: black;
+    text-align: center;
+}
+
+.container__counter{
+    position: absolute;
+    right: 40;
+    top: 10;
+    color: red;
+    font-size: 60px;
 }
